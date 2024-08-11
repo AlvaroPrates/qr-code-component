@@ -1,7 +1,10 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", sans-serif;
-    margin: 0;
 }
 
 body p {
@@ -25,8 +28,8 @@ body p {
 
 .qr-code-card {
     background-color: hsl(0, 0%, 100%);
-    width: 280px;
-    padding: 15px;
+    width: 288px;
+    padding: 16px 16px 35px;
     border-radius: 20px;
 }
 
@@ -40,16 +43,21 @@ body p {
 }
 
 .qr-code-cap {
-    text-align: center;    
+    text-align: center;
+    margin-top: 24px;
+    gap: 16px;
 }
 
 .qr-code-cap h3 {
     color: hsl(218, 44%, 22%);
-    font-size: 21px;
+    font-size: 22px;
+    line-height: 1.2;
 }
 
 .qr-code-cap p {
     color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    line-height: 1.4;
 }
 
 .attribution { 

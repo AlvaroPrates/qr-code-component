@@ -22,10 +22,6 @@ body p {
     justify-content: center;
 }
 
-.main-content {
-    flex: 1;
-}
-
 .qr-code-card {
     background-color: hsl(0, 0%, 100%);
     width: 288px;
@@ -48,7 +44,7 @@ body p {
     gap: 16px;
 }
 
-.qr-code-cap h3 {
+.qr-code-cap h1 {
     color: hsl(218, 44%, 22%);
     font-size: 22px;
     line-height: 1.2;
@@ -58,14 +54,4 @@ body p {
     color: hsl(216, 15%, 48%);
     font-size: 15px;
     line-height: 1.4;
-}
-
-.attribution { 
-    font-size: 11px;
-    text-align: center;
-    padding: 8px;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
